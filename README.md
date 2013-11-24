@@ -12,7 +12,7 @@ Edit the ~/.config/dyod.conf to set the right commands to be executed
 
 How do I install it?
 ===============
-Well, this is just a script so there is no real installation process yet. If you really want a « dyod » command, just make a short bash script in /usr/bin that launches the python script with python2.
+Well, this is just a script, there is no installation process yet. Use « chmod +x dyod.py » to make it executable, or launch it with python2.
 
 How do I use it?
 ================
@@ -27,8 +27,6 @@ When proposed several choices, type ! to play everything.
 
 You can always type #n where n is the number of the line you want to select.
 There is an option in the config file to display the line numbers.
-
-Try to create a keybinding that launches "yourterminal -x dyod".
 
 The dyod-cli command directly accepts your request as a command line argument, if you
 are into this kind of scripting shenanigans.
