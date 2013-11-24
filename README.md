@@ -1,5 +1,3 @@
-Dyod Is Your Own Dj
-==================
 Dyod is a remote control for your music player.
 It's aimed at ricers and patricians.
 You can use it with only your keyboard, allowing you to quickly find an album
@@ -12,14 +10,14 @@ as long as your music player has some CLI controls for playing and queuing files
 Edit the ~/.config/dyod.conf to set the right commands to be executed
 (default commands are for Decibel).
 
-How do I use that?
+How do I use it?
 ================
 Simply launch Dyod, then type "part_of_artist_name/part_of_album_name",
 without the quotes, and press enter.
 Example : wh/st would play An Electric Storm by White Noise
 
-Add + before your request to queue the album at the end of the playlist.
-Ex : +wh/st
+If you want the selected album to be queued at the end of the playlist, add + at the end of your command.
+Ex : wh/st+
 
 When proposed several choices, type ! to play everything.
 
