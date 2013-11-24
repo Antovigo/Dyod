@@ -10,6 +10,10 @@ as long as your music player has some CLI controls for playing and queuing files
 Edit the ~/.config/dyod.conf to set the right commands to be executed
 (default commands are for Decibel).
 
+How do I install it?
+===============
+Well, this is just a script so there is no real installation process yet. If you really want a « dyod » command, just make a short bash script in /usr/bin that launches the python script with python2.
+
 How do I use it?
 ================
 Simply launch Dyod, then type "part_of_artist_name/part_of_album_name",
